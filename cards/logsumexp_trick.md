@@ -4,11 +4,11 @@ aliases: []
 tags: []
 ---
 
-Softmax and log-probs need this term:
+Softmax and log-probs need the logsumexp:
 
 $$\log \sum_j e^{z_j}$$
 
-Which overflows easily because of exponents.
+Which overflows easily because of exponentiating logits.
 
 Subtracting a constant from every logit leaves softmax unchanged.
 
