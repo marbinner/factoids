@@ -10,11 +10,11 @@ $$p_i = \frac{e^{z_i}}{\sum_j e^{z_j}}$$
 
 Every entry is positive and they sum to one, so $p$ is a distribution.
 
-Shifting every logit by a constant leaves it unchanged:
+It is the inverse of log-odds — any two probabilities recover the logit gap:
 
-$$\frac{e^{z_i - c}}{\sum_j e^{z_j - c}} = \frac{e^{z_i}}{\sum_j e^{z_j}}$$
+$$\log \frac{p_i}{p_j} = z_i - z_j$$
 
-Which is what [[logsumexp_trick]] exploits.
+So only differences carry information, which [[logsumexp_trick]] exploits.
 
 In log space it is the logit minus the logsumexp:
 
