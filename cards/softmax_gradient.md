@@ -14,7 +14,9 @@ Taking gradient gives us this:
 
 $$\frac{\partial \log p_i}{\partial z_i} = 1 - \frac{e^{z_i}}{\sum_j e^{z_j}} = 1 - p_i$$
 
-$$\frac{\partial \log p_i}{\partial z_j} = 0 - \frac{e^{z_i}}{\sum_j e^{z_j}} = 0 - p_j$$
+$$\frac{\partial \log p_i}{\partial z_j} = 0 - \frac{e^{z_j}}{\sum_j e^{z_j}} = 0 - p_j$$
+
+
 
 
 
