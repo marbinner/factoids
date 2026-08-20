@@ -8,7 +8,7 @@ We have a vector that contains one logit for each dictionary entry:
 
 $$z \in \mathbb{R}^D$$
 
-We can plug this vector into softmax to get a probability vector:
+We can plug this vector into [[softmax]] to get a probability vector:
 
 $$p_i = \frac{e^{z_i}}{\sum_j e^{z_j}}$$
 
