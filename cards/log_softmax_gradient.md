@@ -1,3 +1,9 @@
+---
+id: log_softmax_gradient
+aliases: []
+tags: []
+---
+
 We have a vector that contains one logit for each dictionary entry:
 
 $$z \in \mathbb{R}^D$$

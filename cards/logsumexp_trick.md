@@ -1,3 +1,9 @@
+---
+id: logsumexp_trick
+aliases: []
+tags: []
+---
+
 Softmax and log-probs need this term:
 
 $$\log \sum_j e^{z_j}$$
