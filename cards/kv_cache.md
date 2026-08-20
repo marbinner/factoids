@@ -17,3 +17,5 @@ $$2 \, L \, n \, d \quad \text{entries}$$
 
 Linear in context, so long generation is bounded by memory rather than
 [[attention]] compute.
+
+Shrunk by sharing heads in [[grouped_query_attention]].

@@ -21,3 +21,5 @@ In log space it is the logit minus the logsumexp:
 $$\log p_i = z_i - \log \sum_j e^{z_j}$$
 
 Differentiated in [[log_softmax_gradient]].
+
+Sampled without ever normalising in [[gumbel_max]].

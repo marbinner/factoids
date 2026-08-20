@@ -18,3 +18,5 @@ $H(y)$ is fixed by the data, so minimising cross-entropy minimises KL.
 
 For a one-hot target $H(y) = 0$ and the two are equal, which is what
 [[cross_entropy_gradient]] descends.
+
+A KL from a joint to its marginals is [[mutual_information]].

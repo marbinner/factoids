@@ -15,3 +15,5 @@ in [[cross_entropy_gradient]].
 The gradient keeps that card's form:
 
 $$\frac{\partial L}{\partial z} = \sigma(z) - y$$
+
+Written on the logit alone, each term is a [[softplus]].

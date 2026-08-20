@@ -14,3 +14,6 @@ Reverse is infinite where $p_j > 0$ and $y_j = 0$, so $p$ collapses onto one.
 
 Minimising [[cross_entropy_gradient]] is the forward direction; variational
 inference takes the reverse.
+
+Averaging both directions against their mixture gives [[jensen_shannon]]; the
+honest metric is [[total_variation]].

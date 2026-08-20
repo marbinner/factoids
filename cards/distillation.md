@@ -16,3 +16,5 @@ They carry the teacher's similarity structure, which a one-hot target discards â
 a learned [[label_smoothing]].
 
 Soft-target gradients scale as $1/T^{2}$, so the prefactor restores them.
+
+As $T \to \infty$ it degenerates into [[logit_matching]].

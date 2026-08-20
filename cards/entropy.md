@@ -14,4 +14,4 @@ $$H(y) \le \log D$$
 
 Zero for a one-hot distribution, taking $0 \log 0 = 0$.
 
-The constant term in [[kl_divergence]].
+The constant term in [[kl_divergence]], and the exponent in [[perplexity]].
