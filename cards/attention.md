@@ -11,7 +11,7 @@ $$\mathrm{Attn}(Q, K, V) = \mathrm{softmax}\!\left(\frac{QK^{\top}}{\sqrt{d_k}}\
 The [[softmax]] runs over keys, so each output is a convex combination of rows
 of $V$.
 
-A dot product of $d_k$ independent unit-variance terms has variance $d_k$:
+A dot product of $d_k$ independent zero-mean unit-variance terms has variance $d_k$:
 
 $$\mathrm{Var}(q \cdot k) = d_k$$
 

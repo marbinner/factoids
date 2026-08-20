@@ -19,4 +19,3 @@ $$\frac{\partial L}{\partial z_c} = p_c - 1 \qquad \frac{\partial L}{\partial z_
 Both cases are combined in the vector expression:
 
 $$\frac{\partial L}{\partial z} = p - y$$
-
