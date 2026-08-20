@@ -8,7 +8,7 @@ KL divergence from a target $y$ to a prediction $p$:
 
 $$D_{\mathrm{KL}}(y \parallel p) = \sum_j y_j \log \frac{y_j}{p_j}$$
 
-Splitting the log separates cross-entropy from the entropy of $y$:
+Splitting the log separates cross-entropy from the [[entropy]] of $y$:
 
 $$D_{\mathrm{KL}}(y \parallel p) = -\sum_j y_j \log p_j + \sum_j y_j \log y_j$$
 
