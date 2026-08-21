@@ -17,3 +17,5 @@ $$\mathrm{Var}(q \cdot k) = d_k$$
 
 Dividing by $\sqrt{d_k}$ returns it to $1$ — the [[temperature]] that keeps the
 logits from sharpening as width grows.
+
+Computed without ever materialising the score matrix in [[flash_attention]].
