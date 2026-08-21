@@ -17,3 +17,6 @@ $$g = -\log(-\log u), \qquad u \sim \mathrm{Uniform}(0, 1)$$
 No normalising constant is formed, so unnormalised logits suffice.
 
 Dividing the logits by $T$ first gives [[temperature]] sampling.
+
+Relaxing the argmax makes the sample itself differentiable in $z$ — the
+alternative to [[log_derivative_trick]].

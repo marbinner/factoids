@@ -30,3 +30,5 @@ $$F = \mathrm{diag}(p) - p p^{\top}$$
 one factor of $p_i$ on from [[log_softmax_gradient]].
 
 Inverted, it floors the variance of any unbiased estimator in [[cramer_rao]].
+
+The same factorisation drives [[log_derivative_trick]].
