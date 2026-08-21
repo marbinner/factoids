@@ -21,3 +21,5 @@ logits from sharpening as width grows.
 Computed without ever materialising the score matrix in [[flash_attention]].
 
 Given position by rotation in [[rope]].
+
+Fed a scale-fixed input by [[rmsnorm]].
