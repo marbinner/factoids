@@ -28,3 +28,5 @@ $$\nabla_\theta J = \mathbb{E}\Big[\, \sum_t A_t \, \nabla_\theta \log \pi_\thet
 For a softmax policy $\nabla_z \log \pi(a) = y - p$, the negated
 [[cross_entropy_gradient]] — so a step is [[maximum_likelihood]] on the model's
 own samples, weighted by $A_t$.
+
+Stale rollouts are reweighted by [[importance_sampling]].
