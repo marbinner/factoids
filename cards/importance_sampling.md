@@ -30,3 +30,5 @@ Known only up to a constant, $p$ still serves if the weights are divided by
 their own sum — biased at finite $n$, consistent as it grows.
 
 Off-policy [[policy_gradient]] is this with $w = \pi_\theta / \pi_{\text{old}}$.
+
+Clipped and iterated, that is [[ppo]].
