@@ -19,3 +19,5 @@ Dividing by $\sqrt{d_k}$ returns it to $1$ — the [[temperature]] that keeps th
 logits from sharpening as width grows.
 
 Computed without ever materialising the score matrix in [[flash_attention]].
+
+Given position by rotation in [[rope]].
