@@ -30,3 +30,5 @@ It is chosen to cut variance, which is the whole weakness: the estimator scales
 with $f$ itself, not with its slope.
 
 Called the score-function estimator, or REINFORCE when $f$ is a reward.
+
+Applied to a trajectory it becomes [[policy_gradient]].
